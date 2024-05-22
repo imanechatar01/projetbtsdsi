@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body .section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(liste-BTS.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.section div {
+    padding-top: 100px;
+    padding-left: 100px;
+    line-height: 3;
+}
+
+nav {
+    background: #7c7c7c;
+    height: 80px;
+    
+    
+       
+         /* Hauteur automatique pour s'adapter au contenu */
+        width: 100%;
+       
+       
+        justify-content: space-between; /* Espacement équilibré entre les éléments */
+        align-items: center; /* Alignement vertical au centre */
+    
+
+        
+    
+}
+ #back {
+   
+   background-color:  transparent;
+   
+   padding: 10px;
+   border-radius: 40px ;
+   
+   
+ }
+ 
+ #back a{
+    color: white;
+ }
+ 
+
+label {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+    margin: 0 20px;
+    padding-right: 100px;
+}
+
+nav ul li a  {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  
+    
+
+
+}
+a.active,
+ a:hover {
+    background: #494747;
+    transition: 2s;
+    color: #fff; /* Changement de couleur au survol */
+
+}
+#back a:hover{
+     color:#ffffff ;
+}
+
+/*.section {
+    
+}*/
+
+.section h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    word-spacing: 5;
+    letter-spacing: 4;
+    animation-name: ha;
+    animation-duration: 2s;
+
+}
+@keyframes ha{
+    50%{opacity:0 ;} 
+}
+
+
+.section h1 {
+    font-family: arial rgba(0, 0, 0, 0.678);
+    font-size: 40px;
+    animation-name: animedroit;
+    animation-duration: 1s;
+}
+@keyframes animedroit{
+    from{transform: translateX(0px);}
+}
+@keyframes animedroit{
+    to{transform: translateX(80px);}
+}
+.section h3{
+    animation-name: ha;
+    animation-duration: 2s;
+}
+
+
+.section button {  
+    padding: 10px 20px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px 10px;
+    background-image: linear-gradient(45deg, #d7dcdd, #4c4f50);
+    border: none;
+    color: #fff;
+    transition: background-color 3s, color 3s;
+    position: absolute;
+    
+    bottom: -60px;
+}
+ nav div button:hover {
+    background-color: #474444;
+    color: #fff; /* Changement de couleur au survol */
+}
+.section button:focus{
+    outline:invert;
+}
+
+ 
+    
+    button:hover {
+        background-color: #474444;
+        color: #fff; /* Changement de couleur au survol */
+   
+    }
+
+
+
+
+.img1 {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    width: 500px;
+    height: 400;
+    display: block;
+    margin: 0 auto;
+}
+
+.Filiers {
+    
+    background-color: rgb(136, 136, 136);
+    
+    /*position: absolute;*/
+    top: 100%; /* Positionnement sous la section BOO */
+     left: 0;
+    width: 100%; /* Largeur de la page */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+/*.Filiers {
+  
+}*/
+
+.Filiers div {
+    margin: 20px;
+    text-align: center;
+}
+
+.Filiers .img2 {
+    top: 100
+    ;
+    max-width: 100%;
+    height: auto;
+}
+
+.bts {
+    background-color: #7c7c7c;
+}
+
+body {
+    margin-bottom: -500px;
+}
+.Filiers div p{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif
+}
+@media(min-width:800px){
+    body{
+        font-size: 1.24rem;;
+    }
+}
+.section .btn a{
+    color: white;
+}
